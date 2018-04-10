@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/homebg">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="522dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/complete"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:layout_alignStart="@+id/book"
+                android:layout_below="@+id/book"
+                android:layout_marginTop="52dp"
+                android:background="@color/btn_logut_bg"
+                android:onClick="onClickComp"
+                android:shadowRadius="5dp"
+                android:text="Complete Your Party"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textsize="30sp" />
+
+            <Button
+                android:id="@+id/book"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="200dp"
+                android:background="@color/btn_logut_bg"
+                android:onClick="onClickPlan"
+                android:shadowRadius="5dp"
+                android:text="Plan a party"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textsize="30sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
