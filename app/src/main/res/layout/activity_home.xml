@@ -30,11 +30,10 @@
                 android:layout_marginTop="52dp"
                 android:background="@color/btn_logut_bg"
                 android:onClick="onClickComp"
-                android:shadowRadius="5dp"
                 android:text="Complete Your Party"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
-                android:textsize="30sp" />
+                android:textSize="30sp" />
 
             <Button
                 android:id="@+id/book"
@@ -45,11 +44,10 @@
                 android:layout_marginTop="200dp"
                 android:background="@color/btn_logut_bg"
                 android:onClick="onClickPlan"
-                android:shadowRadius="5dp"
                 android:text="Plan a party"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
-                android:textsize="30sp" />
+                android:textSize="30sp" />
 
         </RelativeLayout>
 
